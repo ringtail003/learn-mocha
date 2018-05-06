@@ -6,7 +6,7 @@ module.exports = function(config) {
 
   config.set({
     basePath: '',
-    frameworks: ['jasmine'],
+    frameworks: ['mocha'],
     files: [
         { pattern: './src/*.spec.ts', watched: false },
     ],
@@ -17,7 +17,8 @@ module.exports = function(config) {
     webpack: webpackConfig,
     reporters: ['mocha'],
     mochaReporter: {
-      output: 'minimal'
+      output: 'minimal',
+      divider: '-',
     },
     port: 9876,
     colors: true,
