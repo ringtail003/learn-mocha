@@ -1,6 +1,6 @@
 ## Description
 
-Webpack4 & TypeScript & Karma & Jasmine
+Webpack4 & TypeScript & Karma & Mocha 
 
 ## Install & Run
 

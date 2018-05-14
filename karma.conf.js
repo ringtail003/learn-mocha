@@ -16,6 +16,9 @@ module.exports = function(config) {
     },
     webpack: webpackConfig,
     reporters: ['mocha'],
+    mime: {
+      'text/x-typescript': ['ts'],
+    },
     mochaReporter: {
       output: 'minimal',
       divider: '-',
